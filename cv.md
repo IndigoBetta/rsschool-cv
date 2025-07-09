@@ -1,5 +1,6 @@
 # Olga Savchenko
 ## Illustrator, future Frontend Developer
+![My Photo](u1.jpg)
 ## Contact information:
 * **E-mail:** indi@academ.org
 * **Diskord nickname:** Olga (@IndigoBetta)
