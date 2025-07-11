@@ -71,10 +71,10 @@ span {
     padding:0 20px 0;
 }
 .nav-link {
-    padding: 0 30px;
+    padding: 0 20px;
     line-height: 100px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     color: rgb(20, 30, 160);
 }
