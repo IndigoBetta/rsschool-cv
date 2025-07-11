@@ -1,15 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="assets/img/favicon.ico">
-    </head>
-    <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/img/favicon.ico">
+    </head>
 
+    <body class="body">
+        <header class="header">
+            <ul class="nav-li">
+                <li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </header>       
+
+
+        <main class="main">
+            <section class="section-my-name-and-photo" id="name-and-photo"> 
+                <div class="name-photo-container">
+                    <div id="profile">
+                        <h1>Olga Savchenko</h1>
+                        <h2>Illustrator, future Frontend Developer</h2>
+                    </div>
+                    <div id="contacts">
+                        <ul class="contacts-list">
+                            <li class="contacts-item"><span>E-mail:</span> <a href="mailto:indi@academ.org" class="my-contacts">indi@academ.org</a></li>
+                            <li class="contacts-item"><span>Git Hub:</span> <a href="https://github.com/IndigoBetta" class="my-contacts">IndigoBetta</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="photo">
+                    <img class="my-photo" src="assets/img/u_html.png" alt="My Photo" height="200">
+                </div>
+            </section>
+
+            <section class="section" id="about-myself">
+                <h3>About myself</h3>
+                <p>I've been working as a freelance illustrator for many years. When I lost interest in that field, I decided to learn the frontend development. I wanted to learn it for a long time and I strive to become a good frontend developer.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h3>Skills</h3>
+                <ul class="skills-li">
+                    <li class="skills-item">Adobe Photoshop, Illustrator, InDesign</li>
+                    <li class="skills-item">CorelDRAW</li>
+                    <li class="skills-item">HTML, CSS (in progress)</li>
+                    <li class="skills-item">JavaScript Basics (in progress)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience">
+                <h3>Experience</h3>
+                    <p><a href="https://indigobetta.github.io/rsschool-cv/cv" class="my-sv">My CV</a><p>
+            </section>
+
+            <section class="section" id="courses">
+                <h3>Courses</h3>
+                <p><a href="https://rs.school/courses/javascript-preschool-ru" class="rs-course">JS / Front-end Pre-school RU Course (in progress)</a><p>
+            </section>
+
+             <section class="section" id="code-example">
+                <h3>Code example</h3>
+                <p><code><pre>
+  function simpleMultiplication(number) {
+     if(number % 2 === 0){
+    return number*8
+  }else {
+    return number*9
+  }
+}
+                </pre></code></p>
+            </section>
+
+            <section class="section" id="languages">
+                <h3>Languages</h3>
+                <ul class="languages-li">
+                    <li class="languages-item">English: Elementary</li>
+                    <li class="languages-item">Russian: Native</li>
+                </ul>
+            </section>
+
+           
+            
+        </main>
+
+        <footer class="footer">
+            <section class="footer-time" id="time-and-logos">
+                <div class="footer-items">
+                    <div>
+                        <h2>2025 Olga Savchenko</h2>
+                    </div>
+                    <div>
+                        <h2><a href="https://github.com/IndigoBetta" class="my-githab">My Githab</a></h2>
+                    </div>>
+                    <div>
+                        <p><a href="https://rs.school"><img src="assets/img/rs_school_js.svg" alt="RS School" height="30"></a></p>
+                    </div>
+                </div>
+            </section>    
+        </footer>
+                
     </body>
 </html>
